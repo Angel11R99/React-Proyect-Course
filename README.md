@@ -14,7 +14,7 @@ Todos los Proyectos incluyen TypeScript desde el inicio.
 
 <details>
 
-<summary>Proyectos del curso</summary>
+<summary><strong>Proyectos del curso</strong></summary>
 <br>
 
 **Proyecto 01:** Carrito de compras.
