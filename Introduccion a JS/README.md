@@ -11,12 +11,6 @@ Concepto fundamental:
 - Propiedades: Son los pares clave-valor que conforman el objeto. 
 - Métodos: Son funciones que están asociadas al objeto y pueden realizar operaciones con los datos del objeto. 
 
-## Object assaign
-```js
-    Object.assign()
-```    
- - Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
-
  ## Destructuring de objetos
  - La "desestructuración" (destructuring) de un objeto en JavaScript es una característica poderosa que te permite extraer propiedades de un objeto y asignarlas a variables individuales de una manera concisa y legible. Introducida en ES6 (ECMAScript 2015), facilita mucho el trabajo con objetos, especialmente cuando se trata de acceder a múltiples propiedades.
 
@@ -56,6 +50,21 @@ producto.disponible = false;
 ```
 
 ## Unión de objetos
+
+<details>
+
+ <Summary>Object assaign</Summary>
+
+Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
+
+```js
+    Object.assign()
+```
+
+</details>
+
+<br>
+
 ```js
 // Objeto Uno
 const producto = {
