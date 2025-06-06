@@ -16,3 +16,26 @@ Concepto fundamental:
     Object.assign()
 ```    
  - Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
+
+ ## Destructuring de objetos
+ - La "desestructuración" (destructuring) de un objeto en JavaScript es una característica poderosa que te permite extraer propiedades de un objeto y asignarlas a variables individuales de una manera concisa y legible. Introducida en ES6 (ECMAScript 2015), facilita mucho el trabajo con objetos, especialmente cuando se trata de acceder a múltiples propiedades.
+
+***¿Cómo funciona la desestructuración de objetos?***
+La sintaxis básica para desestructurar un objeto es la siguiente:
+
+```js
+ const objeto = {
+    propiedad1: "valor1",
+    propiedad2: "valor2",
+    propiedad3: "valor3"
+ }
+
+ const { propiedad1, propiedad2 } = objeto;
+
+ console.log(propiedad1);
+```
+
+- 1. Tenemos un objeto ```objeto``` con tres propiedades.
+- 2. Utilizamos las llaves ```{}``` en el lado izquierdo de la asignación para indicar que estamos desestructurando un objeto.
+- 3. Dentro de las llaves, enumeramos los nombres de las propiedades que queremos extraer (```propiedad1```, ```propiedad2```).
+- 4. JavaScript buscará esas propiedades en el ```objeto``` y asignará sus valores a variables con el mismo nombre.
