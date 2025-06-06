@@ -10,3 +10,9 @@ Concepto fundamental:
 - Valor (Value): Es el dato que está asociado con esa clave.
 - Propiedades: Son los pares clave-valor que conforman el objeto. 
 - Métodos: Son funciones que están asociadas al objeto y pueden realizar operaciones con los datos del objeto. 
+
+## Object assaign
+```js
+    Object.assign()
+```    
+ - Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
