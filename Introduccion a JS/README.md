@@ -39,3 +39,47 @@ La sintaxis básica para desestructurar un objeto es la siguiente:
 - 2. Utilizamos las llaves ```{}``` en el lado izquierdo de la asignación para indicar que estamos desestructurando un objeto.
 - 3. Dentro de las llaves, enumeramos los nombres de las propiedades que queremos extraer (```propiedad1```, ```propiedad2```).
 - 4. JavaScript buscará esas propiedades en el ```objeto``` y asignará sus valores a variables con el mismo nombre.
+
+## Manipulacion de objetos
+
+```js
+
+// No se puede modificar un objeto congelado
+Object.freeze(producto);
+
+// Solo permite modificar propiedades existentes
+Object.seal(producto);
+
+// Reescribir un objeto
+producto.disponible = false;
+
+```
+
+## Unión de objetos
+```js
+// Objeto Uno
+const producto = {
+    nombre: "Monitor 20 pulgadas",
+    precio: 300,
+    disponible: true
+}
+
+// Objeto Dos
+const medidas = {
+    peso: "1kg",
+    medida: 15.5
+}
+
+// Usando Spread Operator (...)
+const pedido = {
+    ...producto,
+    ...medidas,
+    valor: 500
+}
+
+// Usando Object.assign
+const nuevoProducto - Object.assign(producto, medidas);
+
+console.log(pedido); // Usando Spread Operator
+console.log(nuevoProducto); // Usando Object.assign
+```
