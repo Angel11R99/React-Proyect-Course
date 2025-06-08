@@ -92,3 +92,33 @@ const nuevoProducto - Object.assign(producto, medidas);
 console.log(pedido); // Usando Spread Operator
 console.log(nuevoProducto); // Usando Object.assign
 ```
+
+## Arrays o Arreglos
+
+<details>
+    <summary>Descripción</summary>
+    Los arrays son objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud como el tipo de los elementos de un array son variables. Dado que la longitud de un array puede cambiar en cualquier momento, y los datos se pueden almacenar en ubicaciones no contiguas, no hay garantía de que los arrays de JavaScript sean densos; esto depende de cómo el programador elija usarlos. En general estas características son cómodas, pero si, en su caso particular, no resultan deseables, puede considerar el uso de arrays con tipo.
+</details>
+<br>
+
+```js
+// Estructura de un array:
+const parametros = [10, 20, 30]
+
+console.table(parametros[1])
+```
+
+En React, no se recomienda usar mutación de arrays directamente. En su lugar, se deben crear nuevas copias de los arrays para evitar efectos secundarios no deseados. Esto se puede lograr utilizando métodos como `map`, `filter`, `reduce`, entre otros.
+
+<details>
+    <summary>Diferencia entre forEach y map</summary>
+
+    La principal diferencia entre forEach y map en JavaScript es la forma en que manipulan los datos y el valor que devuelven.
+
+    forEach itera sobre un array y ejecuta una función para cada elemento, pero no modifica el array original y no devuelve nada.
+
+    map, por otro lado, itera sobre un array, aplica una función a cada elemento y crea un nuevo array con los resultados de la transformación, dejando el array original sin cambios. 
+</details>
+<br>
+
+[Saber si ***es*** o ***no*** mutable](https://doesitmutate.xyz/)
