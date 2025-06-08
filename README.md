@@ -12,6 +12,11 @@ En este curso aprenderemos a crear proyectos reales abarcando todo el ecosistema
 
 Todos los Proyectos incluyen TypeScript desde el inicio.
 
+<details>
+
+<summary><strong>Proyectos del curso</strong></summary>
+<br>
+
 **Proyecto 01:** Carrito de compras.
 - En este proyecto estaremos aprendiendo los fundamentos de React: Componentes, Eventos y State, mientras creas un carrito de compras real con cantidades, precios, y más, tomaremos este mismo carrito para mostrarte como crear tus propios Hooks y como transformarlo a código de TypeScript y cuales son sus beneficios.
 
@@ -50,6 +55,8 @@ Todos los Proyectos incluyen TypeScript desde el inicio.
 
 **Proyecto 13:** Quiosco de Comida: 
 - Finalizaremos este curso con una introducción a Next.js, utilizaremos la versión 14 con App Router, Server Actions, Prisma, Zod, Zustand, Tailwind, y mucho más, el proyecto incluye subida de archivos, CRUD Completo, paginador, buscador y más.
+
+</details>
 
 **Lo que aprenderás**
 - En pocas palabras: Desde useState hasta Nextjs 14 con Server Actions
