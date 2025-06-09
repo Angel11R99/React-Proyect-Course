@@ -122,3 +122,63 @@ En React, no se recomienda usar mutación de arrays directamente. En su lugar, s
 <br>
 
 [Saber si ***es*** o ***no*** mutable](https://doesitmutate.xyz/)
+
+### destructuring de arrays
+La desestructuración de arrays en JavaScript es una característica que te permite extraer valores de un array y asignarlos a variables individuales de manera concisa. Introducida en ES6 (ECMAScript 2015), facilita el trabajo con arrays al permitirte acceder a sus elementos de forma más legible y directa.
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+const [, , , valorTres] = nuevonumero;
+
+console.log(valorTres);
+
+```
+
+### modificación de arrays
+Para modificar un array en JavaScript, puedes utilizar varios métodos que te permiten agregar, eliminar o cambiar elementos.
+
+```js
+// Utilizando filter
+const numeros = [1, 2, 3, 4, 5];
+
+const numerosNuevos = numeros.filter(function(num) {
+    if (num !== 3) {
+        return num;
+    } else {
+        return num;
+    }
+})
+```
+
+### iteración de arrays
+Para iterar sobre un array en JavaScript, puedes utilizar varios métodos que te permiten recorrer los elementos del array y realizar operaciones en cada uno de ellos.
+
+```js
+const numeros = [1, 2, 3, 4, 5];
+
+/* Utilizando forEach
+ - forEach es un método que ejecuta una función para cada elemento del array*/
+
+numeros.forEach(function(num) {
+    console.log(num);
+});
+
+/* Utilizando map
+ - map es un método que crea un nuevo array con los resultados de aplicar una función a cada elemento del array original */
+numeros.map(function(num) {
+    return num * 2;
+});
+
+/* Utilizando filter
+ - filter es un método que crea un nuevo array con todos los elementos que cumplen una condición especificada en una función */
+numeros.filter(function(num) {
+    return num > 2;
+});
+
+/* Utilizando reduce
+ - reduce es un método que aplica una función a un acumulador y a cada elemento del array (de izquierda a derecha) para reducirlo a un único valor */
+numeros.reduce(function(acumulador, num) {
+    return acumulador + num;    
+}, 0);
+```
