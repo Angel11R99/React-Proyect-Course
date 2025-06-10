@@ -197,6 +197,7 @@ numeros.reduce(function(acumulador, num) {
 ## Funciones en JavaScript
 Las funciones en JavaScript son bloques de código reutilizables que realizan una tarea específica. Puedes definir una función y luego llamarla en cualquier parte de tu código. Las funciones pueden aceptar ***parámetros*** y devolver ***valores***.
 
+### Fuction Declaration
 ```js
 // Function Declaration
 
@@ -211,4 +212,17 @@ function sumar (valor1 = 0, valor2 = 0) {
 }
 
 sumar(12, 10)
+```
+
+### Fuction Expression
+```js
+// Function Expression
+
+/*
+Una function expression (expresión de función) es una forma de definir funciones en JavaScript donde la función se asigna a una `variable`. A diferencia de una function declaration (declaración de función), una function expression no tiene `nombre obligatorio` (puede ser anónima) y no se puede usar antes de ser definida en el código.
+*/
+
+const sumar = function(valor1 = 0, valor2 = 0) {
+    console.log(valor1 + valor2);
+}
 ```
