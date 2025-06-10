@@ -66,7 +66,7 @@ producto.disponible = false;
 
  <Summary>Object assaign</Summary>
 
-Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
+    Es un método de JavaScript que se utiliza para copiar propiedades de uno o más objetos a un objeto de destino. Básicamente, fusiona las propiedades de los objetos fuente en el objeto de destino. 
 
 ```js
     Object.assign()
@@ -107,8 +107,10 @@ console.log(nuevoProducto); // Usando Object.assign
 ## Arrays o Arreglos
 
 <details>
-    <summary>Descripción</summary>
+<summary>Descripción</summary>
+
     Los arrays son objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud como el tipo de los elementos de un array son variables. Dado que la longitud de un array puede cambiar en cualquier momento, y los datos se pueden almacenar en ubicaciones no contiguas, no hay garantía de que los arrays de JavaScript sean densos; esto depende de cómo el programador elija usarlos. En general estas características son cómodas, pero si, en su caso particular, no resultan deseables, puede considerar el uso de arrays con tipo.
+
 </details>
 <br>
 
@@ -196,6 +198,18 @@ numeros.reduce(function(acumulador, num) {
 
 ## Funciones en JavaScript
 Las funciones en JavaScript son bloques de código reutilizables que realizan una tarea específica. Puedes definir una función y luego llamarla en cualquier parte de tu código. Las funciones pueden aceptar ***parámetros*** y devolver ***valores***.
+
+<details>
+    <summary>Declaration - Expression</summary>
+
+    Function Declaration
+
+    - Puedes llamarla antes de donde la escribiste en el código. JavaScript "eleva" (hoists) estas funciones al principio.
+
+    Function Expression
+
+    - Solo puedes llamarla después de donde la escribiste. No se "eleva" de la misma manera.
+</details>
 
 ### Fuction Declaration
 ```js
