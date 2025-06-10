@@ -3,6 +3,17 @@
 ### Nota: 
 - React es una libreria basada en JavaScript.
 
+## Spread Operator (...):
+Se usa para "expandir" el contenido de un array, objeto o string, normalmente cuando los necesitas en otro array, objeto, o como argumentos de una función. Combina varios elementos en uno solo, o extrae elementos de un array u objeto.
+
+```js
+const numeros = [1, 2, 3];
+const masNumeros = [...numeros, 4, 5]; // [1, 2, 3, 4, 5]
+
+const obj1 = {a: 1, b: 2};
+const obj2 = {...obj1, c: 3}; // {a: 1, b: 2, c: 3}
+```
+
 ## Objetos en JS
 En JavaScript, un objeto es una estructura de datos que almacena información en forma de pares clave-valor. Estos pares clave-valor permiten agrupar datos relacionados y organizarlos de manera estructurada. En otras palabras, un objeto es como una caja donde puedes guardar diferentes tipos de información, cada una identificada por una etiqueta o clave. 
 Concepto fundamental:
