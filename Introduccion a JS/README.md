@@ -193,3 +193,22 @@ numeros.reduce(function(acumulador, num) {
     return acumulador + num;    
 }, 0);
 ```
+
+## Funciones en JavaScript
+Las funciones en JavaScript son bloques de código reutilizables que realizan una tarea específica. Puedes definir una función y luego llamarla en cualquier parte de tu código. Las funciones pueden aceptar ***parámetros*** y devolver ***valores***.
+
+```js
+// Function Declaration
+
+/* 
+Nota:
+- NaN => Not A Number.
+- Las funciones se le asignan parametros `valor1, valor2` y lo que se le envia son los argumentos `sumar(12, 10)`. 
+- Parametros por default `valor1 = 0, valor2 = 0` 
+*/
+function sumar (valor1 = 0, valor2 = 0) {
+    console.log(valor1 + valor2);
+}
+
+sumar(12, 10)
+```
