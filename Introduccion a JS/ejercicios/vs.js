@@ -30,4 +30,6 @@ asistencia.map(function (numAsis) {
     }
 })
 
-// function buscarEstudiante () 
+function buscarEstudiante () {
+    
+}
