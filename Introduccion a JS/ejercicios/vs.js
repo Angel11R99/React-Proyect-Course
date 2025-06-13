@@ -20,7 +20,7 @@ const asistencia = [{ ...estudiante1 }, { ...estudiante2 }, { ...estudiante3 }]
 
 // Lista los estudiantes y muestra si esta presentes o ausentes
 const litarAsistencia = asistencia.forEach(function (asis) {
-    console.log(`el estudiante ${asis.nombre} esta ${asis.presente === 'Presente' ? 'Presente' : 'Ausente'}`);
+    console.log(`el estudiante ${asis.nombre} esta ${asis.presente ? 'Presente' : 'Ausente'}`);
 })
 
 asistencia.map(function (numAsis) {
