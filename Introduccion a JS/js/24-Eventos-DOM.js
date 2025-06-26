@@ -10,7 +10,7 @@ const heading = document.querySelector('.heading')
 const enlaces = document.querySelectorAll('.navegacion a')
 
 // enlaces.forEach((enlace) => {
-//     enlace.addEventListener(('click'), (e) => {
+//     enlace.addEventListener('click', (e) => {
 //         e.preventDefault()
 //         e.target.textContent = 'Diste Click'
 //         // console.log(`Diste click`)
@@ -18,6 +18,6 @@ const enlaces = document.querySelectorAll('.navegacion a')
 // })
 
 // Forma distinta de hacerlo
-enlaces.forEach(enlace=>enlace.addEventListener("click",()=>{
-    enlace.textContent="Diste click"
+enlaces.forEach(enlace => enlace.addEventListener('click', () => {
+    enlace.textContent = 'Diste click'
 }))
